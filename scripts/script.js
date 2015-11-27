@@ -378,7 +378,7 @@
       e.preventDefault();
     }
   }, false);
-
+  window.startSlide = dispatchSingleSlideMode;
 }());
 
 function goFullScreen() {
